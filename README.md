@@ -2,7 +2,7 @@
 
 A full-stack web dashboard that visualizes key revenue metrics using interactive charts and tables. Built with **MongoDB**, **Express.js**, **React**, and **Node.js** (MERN stack).
 
-**Hosted-**[Revenue Dashboard]()
+**Hosted-**[Revenue Dashboard](https://revenue-dashboard-vanshi.vercel.app/)
 
 ![App Screenshot](frontend/public/Revenue-dashboard.png)
 ---
