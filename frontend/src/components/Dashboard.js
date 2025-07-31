@@ -9,19 +9,25 @@ const Dashboard = () => {
   return (
     <div className="grid gap-6">
       
-      <div className="grid md:grid-cols-2 gap-4">
+      <div id="quarterly-revenue" className="grid md:grid-cols-2 gap-2">
         <QuarterlyRevenueChart />
+        </div>
+        <div id="revenue-bridge" className="grid md:grid-cols-2 gap-2">
         <RevenueBridgeAnalysis />
       </div>
 
       
-      <div className="grid md:grid-cols-2 gap-4">
+      <div id="country-revenue" className="grid md:grid-cols-2 gap-2">
         <CountryRevenueChart />
+        </div>
+        <div id="region-revenue" className="grid md:grid-cols-2 gap-2">
         <RegionRevenueChart />
       </div>
 
       
-      <CustomerConcentrationChart />
+      <div id="customer-analysis">
+        <CustomerConcentrationChart />
+      </div>
     </div>
   );
 };

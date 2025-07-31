@@ -3,11 +3,11 @@ const Sidebar = () => {
     <div className="sidebar">
       <h2>Dashboard</h2>
       <ul>
-        <li>Quarterly Revenue</li>
-        <li>Revenue Bridge</li>
-        <li>Country Revenue</li>
-        <li>Region Revenue</li>
-        <li>Customer Analysis</li>
+        <li><a href="#quarterly-revenue">Quarterly Revenue</a></li>
+        <li><a href="#revenue-bridge">Revenue Bridge</a></li>
+        <li><a href="#country-revenue">Country Revenue</a></li>
+        <li><a href="#region-revenue">Region Revenue</a></li>
+        <li><a href="#customer-analysis">Customer Analysis</a></li>
       </ul>
     </div>
   );
