@@ -6,8 +6,8 @@ const dataRoutes = require('./routes/dataRoutes');
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:3000' 
-})); 
+  origin: ['http://localhost:3000', 'https://revenue-dashboard-vanshi.vercel.app'],
+}));
 app.use(express.json());
 
 
