@@ -15,7 +15,7 @@ const RegionRevenueChart = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/data/D")
+    axios.get("https://revenue-dashboard-2.onrender.com/api/data/D")
       .then((res) => {
         const cleanedData = res.data.filter(item => item["Yearly Revenue"] !== null);
         setData(cleanedData);

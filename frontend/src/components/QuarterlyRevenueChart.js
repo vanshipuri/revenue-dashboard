@@ -15,7 +15,7 @@ const QuarterlyRevenueChart = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/data/A')
+    axios.get('https://revenue-dashboard-2.onrender.com/api/data/A')
       .then((res) => {
         const rawData = res.data;
 

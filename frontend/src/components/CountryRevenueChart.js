@@ -15,7 +15,7 @@ const CountryRevenueChart = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/data/C')
+    axios.get('https://revenue-dashboard-2.onrender.com/api/data/C')
       .then((res) => {
         setData(res.data);
       })

@@ -6,7 +6,7 @@ const RevenueBridgeAnalysis = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/data/B')
+    axios.get('https://revenue-dashboard-2.onrender.com/api/data/B')
       .then(response => {
         setData(response.data);
       })

@@ -6,7 +6,7 @@ const CustomerConcentrationChart = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/data/E')
+    axios.get('https://revenue-dashboard-2.onrender.com/api/data/E')
       .then(response => {
         const filtered = response.data.filter(entry => entry['Customer Name'] && entry['Total Revenue']);
         setData(filtered.slice(0, 15)); // show top 15 customers
