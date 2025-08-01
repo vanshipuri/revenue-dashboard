@@ -35,3 +35,22 @@ A full-stack web dashboard that visualizes key revenue metrics using interactive
 - Git & GitHub
 - VS Code
 - MongoDB Atlas
+
+#Clone the repository
+
+
+`git clone https://github.com/vashipuri/revenue-dashboard.git`
+
+#2.Setup Backend
+
+`
+cd backend
+npm install
+npm start`
+
+#3.Setup Frontend
+
+
+`cd frontend
+npm install
+npm start`
